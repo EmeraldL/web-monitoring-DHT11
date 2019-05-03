@@ -20,7 +20,7 @@ import RPi.GPIO as GPIO #Para controle das GPIOs da Raspberry Pi.
 import time #Para controle do intervalo de tempo time.sleep().
 import urllib3 #Para comunicação com o ThingSpeak.
 
-apikey = 'QDVJXCRKLWDRRQUW' #Chave de escrita.
+apikey = 'XXXXXXXXXXXXXXXX' #Chave de escrita.
 url = 'https://api.thingspeak.com/update?api_key={}&field1={}&field2={}'
 
 #Escolhendo o sensor a ser usado.
